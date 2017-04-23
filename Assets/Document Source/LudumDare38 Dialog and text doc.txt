@@ -16,7 +16,9 @@ This is a peaceful tree in a peaceful forest. He never did anything to hurt anyo
 
 
 202 HouseDesc:
-This is your Hōm on Hōm. It has a nice fireplace and all the tools you use to get ready in the morning.
+This is your Hōm on Hōm. It has a nice fireplace and all the hygeiene implements you use to get ready in the morning.
+
+Your attic is full of many tools to solve many problems. But you almost never have any problems.
 
 203 Carrot Patch Desc:
 
@@ -56,9 +58,71 @@ Puppy is crying. “Ouch. *sadface* How will I govern this planet without my Tai
 212 Sheep dialog success:
 “My skin can relax now and so can my split ends. I am filled with relief. Here is my love for you.”
 
+213 House interaction:
+Hygiene is important. You pack an overnight kit, in case you find a way to reach escape velocity. It contains: A brush, strawberry-flavored toothpaste, and a teddy bear.
 
-Dynō (300)
+214 Forest interaction:
+You pick up a decent stick here, in case you want to roast marshmallows later.
+
+215 Garden interaction:
+Carrots. You hate carrots. Just looking at them makes you want to rip them from the ground. In fact, you think you will!
+
+
+
+Little Būg Planet (300)
+
+301 Forest of Rain
+
+Here there are clouds propped up on sticks, crying their eternal tears of... joy. The locals have another name for this place, "Atmosphere Scrubberville," but you will call it, The Forest of Rain.
+
+302 Mushrooms
+
+You have never seen mushrooms before, but you read about them in dusty tomes. Here before you lies an entire field of them, growing in the sun.
+
+
+303 
+
+There are many things growing on this planet. Including this river of flowers. They sparkle with glimmer and compete with one another in beauty pageants.
+
+
+304 Geyser desc:
+
+It bubbles and froths all day long, preventing Būg Planet from breaking the second law of wormodynamics.
+
+305
+
+
+306
+
+
+The bee is an opera singer and wants the flower as an accolade for their great singing.
+
+Bee:
+“I have sung the highest note there is to sing, to the largest audience on Būg. Yet no one has applauded or given me any recognition. I dream of carrying a bouquet of flowers off-stage.”
+
+Flowers:
+You can't bear to pick these flowers, for then they shall die in the full bloom of life. However, you figure taking a few of their flower-eggs can't hurt. And they can't really do anything to stop you.
+
+
+
+"A Space Explorer, huh?" He tells you of rumors of an ancient lost world.
 
 
 
 
+Dynō (400)
+
+
+
+I used to be a Space Explorer like you…
+But then they stopped making oxy helmets in my size.
+
+
+
+
+
+Brōnto hates strawberries.
+
+
+
+A strangely glowing rock feel from the sky. Where did it come from? It tastes like mint.
