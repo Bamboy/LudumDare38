@@ -1,6 +1,9 @@
 Dialog & description text
 
 
+1st # = world
+2nd # = Feature/creature
+
 General text (100)
 
 Intro 
@@ -11,103 +14,171 @@ But how will you leave your Hōm?
 
 Hōm (200)
 
-201 Forest description:
+210 Forest description:
 This is a peaceful tree in a peaceful forest. He never did anything to hurt anyone. He is full of branches.
 
 
-202 HouseDesc:
+211 Forest interaction:
+You pick up a decent stick here, in case you want to roast marshmallows later.
+
+
+220 HouseDesc:
 This is your Hōm on Hōm. It has a nice fireplace and all the hygeiene implements you use to get ready in the morning.
 
 Your attic is full of many tools to solve many problems. But you almost never have any problems.
 
-203 Carrot Patch Desc:
+221 House interaction:
+Hygiene is important. You pack an overnight kit, in case you find a way to reach escape velocity. It contains: A brush, strawberry-flavored toothpaste, and a teddy bear.
 
-This is your garden. Without it on this tiny Hōm world, you would starve!
+230 Garden Desc:
 
-204 Bunny desc:
+This is your garden. You care for it every day with your handy space suit attachments! Without it on this tiny Hōm world, you would starve.
 
-This is your friend Nün, your favorite goat in the whole universe. Nün has been sad lately.
 
-205 Cat desc:
+231 Garden interaction:
+Carrots. You hate carrots. Just looking at them makes you want to rip them from the ground. In fact, you think you will!
 
-Puppy is a Senator and has a very important job governing your Hōm. What’s this? Puppy has hurt herself while floating in the geyser. 
 
-206 Sheep desc:
-
-Baaahthazär loves your hairdo. But this sad lizard has tangled hair. He tells you it itches.
-
-207 Geyser desc:
+270 Geyser desc:
 
 It bubbles and froths all day long, providing your Hōm with energy.
 
-208: Bunny dialog failed state:
+271 Geyser interaction:
+
+Touching a geyser is forbidden, due to Law #1709, just passed this morning by Senator Puppy.
+
+240 Bunny desc:
+
+This is your friend Nün, your favorite goat in the whole universe. Nün has been sad lately.
+
+241: Bunny dialog failed state:
+
 “Help, Space Explorer. I am a very sad goat. My tummy hurts!”
 
-209 Bunny dialog success:
+242 Bunny dialog success:
+
+The only food you have handy is this carrot. You feel bad you are giving it your least-favorite food.
+
 “Delicious! Thank you for this carrot. Carrots are a goat’s favorite food. Here is my love for you.” (Hearts animation, jetpack grows.)
 
-210 Cat dialog failed state:
+250 Cat desc:
+
+Puppy is a Senator and has a very important job governing your Hōm. What’s this? Puppy has hurt herself while floating in the geyser. 
+
+251 Cat dialog failed state:
+
 Puppy is crying. “Ouch. *sadface* How will I govern this planet without my Tail of Leadership?”
 
-211 Cat dialog success:
+252 Cat dialog success:
+
+You bind up The Senator's broken tail with a stick from the woods.
+
 “My feels are feeling much better. Now I shall pass a good law! Here is my love for you.” (Hearts animation, jetpack grows.)
 
-212 Sheep failed state dialog:
+260 Sheep desc:
+
+Baaahthazär loves your hairdo. But this sad lizard has tangled hair. He tells you it itches.
+
+
+261 Sheep failed state dialog:
 “I have set the world’s record for longest, liveliest lizard hair. But it keeps getting tangled! And I have no hands.”
 
-212 Sheep dialog success:
+262 Sheep dialog success:
+
+You give your favorite hairbrush to Baaaaahthazär.
+
 “My skin can relax now and so can my split ends. I am filled with relief. Here is my love for you.”
-
-213 House interaction:
-Hygiene is important. You pack an overnight kit, in case you find a way to reach escape velocity. It contains: A brush, strawberry-flavored toothpaste, and a teddy bear.
-
-214 Forest interaction:
-You pick up a decent stick here, in case you want to roast marshmallows later.
-
-215 Garden interaction:
-Carrots. You hate carrots. Just looking at them makes you want to rip them from the ground. In fact, you think you will!
 
 
 
 Little Būg Planet (300)
 
-301 Forest of Rain
+310 Forest of Rain
 
 Here there are clouds propped up on sticks, crying their eternal tears of... joy. The locals have another name for this place, "Atmosphere Scrubberville," but you will call it, The Forest of Rain.
 
-302 Mushrooms
+311 Forest of Rain interaction:
+
+You gather a bucket of tree tears and place them in your space suit's watering can attachment.
+
+
+320 Mushrooms
 
 You have never seen mushrooms before, but you read about them in dusty tomes. Here before you lies an entire field of them, growing in the sun.
 
+321 Mushroom interaction:
 
-303 
+You collect a sample mushroom for your sample collection.
+
+
+330 Flowers
 
 There are many things growing on this planet. Including this river of flowers. They sparkle with glimmer and compete with one another in beauty pageants.
 
+331 Flowers Interaction:
 
-304 Geyser desc:
-
-It bubbles and froths all day long, preventing Būg Planet from breaking the second law of wormodynamics.
-
-305
-
-
-306
-
-
-The bee is an opera singer and wants the flower as an accolade for their great singing.
-
-Bee:
-“I have sung the highest note there is to sing, to the largest audience on Būg. Yet no one has applauded or given me any recognition. I dream of carrying a bouquet of flowers off-stage.”
-
-Flowers:
 You can't bear to pick these flowers, for then they shall die in the full bloom of life. However, you figure taking a few of their flower-eggs can't hurt. And they can't really do anything to stop you.
 
 
+340 Geyser desc:
 
-"A Space Explorer, huh?" He tells you of rumors of an ancient lost world.
+It bubbles and froths all day long, preventing Būg Planet from breaking the second law of wormodynamics.
+
+341 Geyser interaction:
+
+Touching a geyser is forbidden, due to Law #1709, just passed this morning by Senator Puppy. You're not sure if Puppy has jurisdiction over what you do on other planets, because you are not a lawyer.
 
 
+350 Ladybug desc:
+
+This strange alien lives at the edge of the Forest of Tears. You are not sure what it is called, but based on its coloration, you think it is a MechaDroid built for warning and defense. 
+
+351 Ladybug dialog failed state:
+
+"The trees are always leaking," it says. "I look on the bright side– At least I am never thirsty!" Its armor plating is constantly moist, and you are worried it will rust.
+
+
+352 Ladybug dialog success state:
+
+You give your mushroom sample to the MecaDroid.
+
+"Goodness! You traveled all across the world to get me this protective parasol from the parasol farms? I will be your friend forever!"
+
+360 Bee desc:
+
+This is a strange hummingbird. She is yellow and black. Based on the way she musically voculates, you guess correctly that she is an opera stinger.
+
+
+361 Bee dialog failed state:
+
+“I have sung the highest note there is to sing. Yet no one has applauded or given me any recognition. I dream of carrying a bouquet of flowers off the stage.”
+
+362 Bee dialog success state:
+
+You have no flowers to give, but perhaps planting some will make her happy.
+
+The seed fails to grow, but...
+
+...with a little help from your watering can...
+
+[flowers grow]
+
+"Oh joy! Now I can make my own flowers any time I want. And they will listen to my operas whenever I wish to sing."
+
+
+370 Worm desc:
+
+This new friend appears to be some kind of lizard, just like your friend Baaahthazär back Hōm. With two important differences: This creature has no legs or bones.
+
+371 Worm failed state dialog:
+
+"If you are a Space Explorer, I must seem very strange. Stranger still, since my skin is dry and brittle. I am about to be flat and desiccated. I know many secrets I have dug from the earth, but I fear I am in no condition to chat."
+
+372 Worm success state dialog:
+
+You sprinkle water from the Forest of Tears, hoping the sadness of the Cloud Trees will heal your new friend. He plumps up like a soaked raisin before thanking you.
+
+"A Space Explorer, huh?" He tells you of rumors of an ancient lost world filled with creatures too strange to describe.
 
 
 Dynō (400)
