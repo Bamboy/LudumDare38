@@ -68,6 +68,7 @@ public class DisplayString : MonoBehaviour
 	void LateUpdate()
 	{
 		useButtonDown = false;
+		display.enabled = window.enabled;
 	}
 	public DialogSequence debugSequence = null;
 	public int dialogSeqIndex;

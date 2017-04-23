@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 9d44ebd2b21fcbe4484cd94cc137f25f
+timeCreated: 1492982299
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 0xA000-Squareish
+  fontNames:
+  - 0xA000-Squareish
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

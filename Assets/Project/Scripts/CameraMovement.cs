@@ -10,7 +10,7 @@ public class CameraMovement : MonoBehaviour
 
 	void Start () 
 	{
-		
+		lastPos = transform.position;
 	}
 
 	void Update()

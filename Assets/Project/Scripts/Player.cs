@@ -64,6 +64,8 @@ public class Player : MonoBehaviour
 			grounded = false;
 		}
 
+
+
 	}
 
 	private float movePenalty = 0.65f;
@@ -102,38 +104,41 @@ public class Player : MonoBehaviour
 			rb.drag = Mathf.Lerp( maxDrag / 2f, minDrag / 2f, VectorExtras.ReverseLerp(distToSurface, 0f, minDragDistance) );
 			rb.velocity = rb.velocity * 0.95f;
 
-
 			Vector3 force = Vector3.zero;
-			if( Input.GetKey( KeyCode.D ) )
-				force = transform.right * moveForce * movePenalty;
-			else if( Input.GetKey( KeyCode.A ) )
-				force = -transform.right * moveForce * movePenalty;
+			if( Mathf.Abs(Input.GetAxis("Horizontal")) > 0.05f )
+				force = Input.GetAxis("Horizontal") * transform.right * moveForce * movePenalty;
 
 
 			rb.AddForce( new Vector2( force.x, force.y ) );
 
+			//rb.velocity =  new Vector2( force.x, force.y );
 
+			/*
 			if( rb.velocity.magnitude >= 1.0f )
 				rb.velocity = rb.velocity * 0.5f;
 			else if( rb.velocity.magnitude <= 0.8f )
-				rb.velocity = rb.velocity * 1.05f;
+				rb.velocity = rb.velocity * 1.05f; */
 		}
 		else
 		{
 			rb.drag = Mathf.Lerp( maxDrag, minDrag, VectorExtras.ReverseLerp(distToSurface, 0f, minDragDistance) );
 
 			Vector3 force = Vector3.zero;
-			if( Input.GetKey( KeyCode.D ) )
+			if( Mathf.Abs(Input.GetAxis("Horizontal")) > 0.05f )
+				force = Input.GetAxis("Horizontal") * transform.right * moveForce;
+
+			/*if( Input.GetKey( KeyCode.D ) )
 				force = transform.right * moveForce;
 			else if( Input.GetKey( KeyCode.A ) )
-				force = -transform.right * moveForce;
+				force = -transform.right * moveForce; */
 
+			//rb.velocity =  new Vector2( force.x, force.y );
 			rb.AddForce( new Vector2( force.x, force.y ) );
 		}
 
 
 
-		if( Input.GetKey( KeyCode.Space ) || Input.GetKey( KeyCode.W ) )
+		if( Input.GetButton("Jump") )
 		{
 			if( fuelDepleted )
 			{
@@ -154,9 +159,6 @@ public class Player : MonoBehaviour
 				}
 			}
 		}
-
-
-
 	}
 
 	public static bool interacting = false;
@@ -166,7 +168,7 @@ public class Player : MonoBehaviour
 		if( fuelDepleted && fuel >= maxFuelTime )
 			fuelDepleted = false;
 
-		if( Input.GetKey(KeyCode.E) && interacting == false )
+		if( Input.GetButtonDown("Use") && interacting == false )
 		{
 			//Look for things to interact with
 

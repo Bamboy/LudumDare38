@@ -2,22 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogSequence : InteractSequence 
+public class DialogSequence : Interactable 
 {
 
 	[TextArea]
 	public List<string> dialog = new List<string>();
 	//TODO update dialog array when game state changes
-
-	void Start () 
-	{
-		foreach (string item in dialog) 
-		{
-			base.AddStep( delegate() { return WaitForRelease(); } );
-			base.AddStep( delegate() { return DisplayDialog( item ); } );
-
-		}
-	}
 
 
 	public bool WaitForRelease( KeyCode code = KeyCode.E )
@@ -30,18 +20,15 @@ public class DialogSequence : InteractSequence
 
 
 
-	public bool DisplayDialog( string text )
+	public override void Interact()
 	{
-
+		base.Interact();
 		if( Input.GetButtonDown("Use") && DisplayString.dialogIsOpen == false )
 		{
 			DisplayString.StartDialog( this );
-
-			return true;
 		}
-		else
-			return false;
 
 	}
+
 
 }
