@@ -49,8 +49,6 @@ public class Player : MonoBehaviour
 		planets = GameObject.FindGameObjectsWithTag("Planet");
 		rb = GetComponent<Rigidbody2D>();
 		cameraTarget = transform.FindChild("CameraTarget");
-
-		text = GameObject.Find("DialogText").GetComponent<UnityEngine.UI.Text>();
 	}
 
 	void Update()
@@ -197,11 +195,8 @@ public class Player : MonoBehaviour
 			dialogOpen = value;
 		}
 	}
-	public static UnityEngine.UI.Text text;
-	public static void SetDialogText( string str )
-	{
-		text.text = str;
-	}
+
+
 
 
 

@@ -7,6 +7,7 @@ public class DialogSequence : InteractSequence
 
 	[TextArea]
 	public List<string> dialog = new List<string>();
+	//TODO update dialog array when game state changes
 
 	void Start () 
 	{
@@ -32,9 +33,10 @@ public class DialogSequence : InteractSequence
 	public bool DisplayDialog( string text )
 	{
 
-		if( Input.GetKeyDown(KeyCode.E) )
+		if( Input.GetButtonDown("Use") && DisplayString.dialogIsOpen == false )
 		{
-			Player.SetDialogText( text );
+			DisplayString.StartDialog( this );
+
 			return true;
 		}
 		else
