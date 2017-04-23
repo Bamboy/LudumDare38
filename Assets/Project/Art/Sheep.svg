@@ -18,7 +18,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="Sheep.svg"
-   inkscape:export-filename="/Users/luna/Sheep.png"
+   inkscape:export-filename="/Users/luna/Documents/LudumDare38/Assets/Project/Art/Sheep.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -85,7 +85,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="-189.51851"
+     inkscape:cx="-517.81808"
      inkscape:cy="141.07143"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -107,7 +107,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -134,14 +134,7 @@
        y="615.29077"
        x="320.07141"
        id="image4211"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAA5CAYAAACxiuLjAAAABHNCSVQICAgIfAhkiAAAAS5JREFU
-aIHt2bFKA0EUheEz65YJyPoAasBGRAj4AkKKIIgg2loFQqrFUlQQfQCxSpPK0koICIKNvRDwATQK
-grsjghax0msnQhY8jZkU5y9Pcz+mHWdm9uhfsLx7iLvnDCFyzuG4sYV0dQUA0ig0CADMDNudU5x0
-LwAAE+evg4P7LA8G+t1l7xaf9vUU9XMf2vKTmaGf5UkUGlJUXLh2z0ZzfaEKzM4NzWP5UkKxCcUm
-FJtQbEKxCcUmFJtQbEKxCcUmFJtQbEKxCcUmFJtQbEKxCcUmFJtQbEKxCcVW/Iu1uDSa68lU4VyM
-mq78J+XPIudcUMBwzqJ2q4FxgVUrM9jbXL+Jm/UaAKDV7sDMgoKujvaRlEuDGEDarNfg397nH7yf
-DIXa2VjrJeXSB4DrbzueSwkqEHwlAAAAAElFTkSuQmCC
-"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAA5CAYAAACxiuLjAAAABHNCSVQICAgIfAhkiAAAAS5JREFU aIHt2bFKA0EUheEz65YJyPoAasBGRAj4AkKKIIgg2loFQqrFUlQQfQCxSpPK0koICIKNvRDwATQK grsjghax0msnQhY8jZkU5y9Pcz+mHWdm9uhfsLx7iLvnDCFyzuG4sYV0dQUA0ig0CADMDNudU5x0 LwAAE+evg4P7LA8G+t1l7xaf9vUU9XMf2vKTmaGf5UkUGlJUXLh2z0ZzfaEKzM4NzWP5UkKxCcUm FJtQbEKxCcUmFJtQbEKxCcUmFJtQbEKxCcUmFJtQbEKxCcUmFJtQbEKxCcVW/Iu1uDSa68lU4VyM mq78J+XPIudcUMBwzqJ2q4FxgVUrM9jbXL+Jm/UaAKDV7sDMgoKujvaRlEuDGEDarNfg397nH7yf DIXa2VjrJeXSB4DrbzueSwkqEHwlAAAAAElFTkSuQmCC "
        style="image-rendering:optimizeSpeed"
        preserveAspectRatio="none"
        height="57"
