@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="143.1311mm"
+   height="211.75345mm"
+   viewBox="0 0 507.15745 750.30749"
+   id="svg6448"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="House.svg"
+   inkscape:export-filename="/Users/luna/Documents/LudumDare38/Assets/Art Source/House.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs6450" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="43.305189"
+     inkscape:cy="230.35713"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1863"
+     inkscape:window-height="1155"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata6453">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-98.123382,-12.411853)">
+    <rect
+       style="fill:#37abc8;fill-opacity:1;stroke:#6a3327;stroke-width:35;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7027"
+       width="27.142857"
+       height="132.85715"
+       x="209.55194"
+       y="138.14792" />
+    <rect
+       style="fill:#ffeeaa;fill-opacity:1;stroke:#0a777f;stroke-width:35;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6456"
+       width="298.57144"
+       height="417.14285"
+       x="200"
+       y="328.07648" />
+    <rect
+       style="fill:#483e37;fill-opacity:1;stroke:#392609;stroke-width:33.59733582;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect6458"
+       width="32.831234"
+       height="85.688377"
+       x="360.72723"
+       y="635.94659" />
+    <path
+       sodipodi:type="star"
+       style="fill:#80e5ff;fill-opacity:1;stroke:#0a777f;stroke-width:35;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path6462"
+       sodipodi:sides="3"
+       sodipodi:cx="352.85712"
+       sodipodi:cy="305.21933"
+       sodipodi:r1="257.81659"
+       sodipodi:r2="128.90829"
+       sodipodi:arg1="2.625883"
+       sodipodi:arg2="3.6730805"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 128.57139,432.36218 354.89104,47.410763 575.10892,435.88504 Z"
+       inkscape:transform-center-x="1.0169565"
+       inkscape:transform-center-y="-63.571429" />
+    <rect
+       style="fill:#37abc8;fill-opacity:1;stroke:#0a777f;stroke-width:35;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7004"
+       width="15.714286"
+       height="42.857143"
+       x="262.85715"
+       y="493.79077" />
+    <rect
+       style="fill:#37abc8;fill-opacity:1;stroke:#0a777f;stroke-width:35;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect7006"
+       width="21.428572"
+       height="34.285713"
+       x="402.85712"
+       y="533.79077" />
+  </g>
+</svg>

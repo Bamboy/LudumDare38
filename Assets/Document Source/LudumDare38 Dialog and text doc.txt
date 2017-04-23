@@ -1,0 +1,64 @@
+Dialog & description text
+
+
+General text (100)
+
+Intro 
+101
+Welcome, Space Explorer. I am your conscience and your passion. I impel you to explore the nearest regions of farthest space!
+
+But how will you leave your Hōm?
+
+Hōm (200)
+
+201 Forest description:
+This is a peaceful tree in a peaceful forest. He never did anything to hurt anyone. He is full of branches.
+
+
+202 HouseDesc:
+This is your Hōm on Hōm. It has a nice fireplace and all the tools you use to get ready in the morning.
+
+203 Carrot Patch Desc:
+
+This is your garden. Without it on this tiny Hōm world, you would starve!
+
+204 Bunny desc:
+
+This is your friend Nün, your favorite goat in the whole universe. Nün has been sad lately.
+
+205 Cat desc:
+
+Puppy is a Senator and has a very important job governing your Hōm. What’s this? Puppy has hurt herself while floating in the geyser. 
+
+206 Sheep desc:
+
+Baaahthazär loves your hairdo. But this sad lizard has tangled hair. He tells you it itches.
+
+207 Geyser desc:
+
+It bubbles and froths all day long, providing your Hōm with energy.
+
+208: Bunny dialog failed state:
+“Help, Space Explorer. I am a very sad goat. My tummy hurts!”
+
+209 Bunny dialog success:
+“Delicious! Thank you for this carrot. Carrots are a goat’s favorite food. Here is my love for you.” (Hearts animation, jetpack grows.)
+
+210 Cat dialog failed state:
+Puppy is crying. “Ouch. *sadface* How will I govern this planet without my Tail of Leadership?”
+
+211 Cat dialog success:
+“My feels are feeling much better. Now I shall pass a good law! Here is my love for you.” (Hearts animation, jetpack grows.)
+
+212 Sheep failed state dialog:
+“I have set the world’s record for longest, liveliest lizard hair. But it keeps getting tangled! And I have no hands.”
+
+212 Sheep dialog success:
+“My skin can relax now and so can my split ends. I am filled with relief. Here is my love for you.”
+
+
+Dynō (300)
+
+
+
+
