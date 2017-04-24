@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128mm"
+   height="128mm"
+   viewBox="0 0 453.54331 453.54331"
+   id="svg6209"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Item - Mushroom Parasol.svg"
+   inkscape:export-filename="/Users/luna/Documents/LudumDare38/Assets/Project/Art/Inventory Items/Item - Mushroom Parasol.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs6211" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="203.27407"
+     inkscape:cy="156.34508"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1863"
+     inkscape:window-height="1155"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata6214">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-598.8189)">
+    <rect
+       style="fill:#568d60;fill-opacity:1;stroke:#1f592a;stroke-width:8.87128735;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5879"
+       width="33.731323"
+       height="326.16284"
+       x="210.23296"
+       y="697.37207" />
+    <path
+       style="fill:#91222c;fill-opacity:1;stroke:#610009;stroke-width:15;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5854"
+       sodipodi:type="arc"
+       sodipodi:cx="229.27739"
+       sodipodi:cy="709.79352"
+       sodipodi:rx="180"
+       sodipodi:ry="80"
+       sodipodi:start="2.7925268"
+       sodipodi:end="0.40142573"
+       d="m 60.132718,737.15513 a 180,80 0 0 1 64.192312,-92.35544 180,80 0 0 1 217.41429,2.53031 180,80 0 0 1 53.22894,93.72201 L 229.27739,709.79352 Z" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5856"
+       cx="128.56306"
+       cy="684.07928"
+       rx="10.892456"
+       ry="10.17817" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5856-6"
+       cx="226.42024"
+       cy="662.6507"
+       rx="10.892456"
+       ry="10.17817" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path5856-8"
+       cx="333.56311"
+       cy="688.36493"
+       rx="10.892456"
+       ry="10.17817" />
+  </g>
+</svg>

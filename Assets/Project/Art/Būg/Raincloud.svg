@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="125.38715mm"
+   height="84.263176mm"
+   viewBox="0 0 444.28513 298.57031"
+   id="svg5460"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Raincloud.svg"
+   inkscape:export-filename="/Users/luna/Documents/LudumDare38/Assets/Project/Art/Būg/Raincloud.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs5462" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="97.011661"
+     inkscape:cy="-37.858249"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1863"
+     inkscape:window-height="1155"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5465">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-140.71458,-17.362768)">
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#578ba9;stroke-width:20;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:1;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 370.71451,27.362768 a 98.571426,88.571426 0 0 0 -91.17182,55.01757 88.571426,84.285713 0 0 0 -40.25782,-9.30273 88.571426,84.285713 0 0 0 -88.57031,84.285162 88.571426,84.285713 0 0 0 56.95703,78.63281 90.714287,83.571426 0 0 0 89.47072,69.9375 90.714287,83.571426 0 0 0 81.5957,-47.29102 106.42857,95.714287 0 0 0 89.834,44.43555 106.42857,95.714287 0 0 0 106.4277,-95.71484 106.42857,95.714287 0 0 0 -105.8828,-95.68946 98.571426,88.571426 0 0 0 -98.4024,-84.310542 z"
+       id="path6372"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
