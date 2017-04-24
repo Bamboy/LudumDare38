@@ -47,29 +47,29 @@ It bubbles and froths all day long, providing your Hōm with energy.
 
 Touching a geyser is forbidden, due to Law #1709, just passed this morning by Senator Puppy.
 
-240 Bunny desc:
+√240 Bunny desc:
 
 This is your friend Nün, your favorite goat in the whole universe. Nün has been sad lately.
 
-241: Bunny dialog failed state:
+√241: Bunny dialog failed state:
 
 “Help, Space Explorer. I am a very sad goat. My tummy hurts!”
 
-242 Bunny dialog success:
+√242 Bunny dialog success:
 
 The only food you have handy is this carrot. You feel bad you are giving it your least-favorite food.
 
 “Delicious! Thank you for this carrot. Carrots are a goat’s favorite food. Here is my love for you.” (Hearts animation, jetpack grows.)
 
-250 Cat desc:
+√250 Cat desc:
 
 Puppy is a Senator and has a very important job governing your Hōm. What’s this? Puppy has hurt herself while floating in the geyser. 
 
-251 Cat dialog failed state:
+√251 Cat dialog failed state:
 
 Puppy is crying. “Ouch. *sadface* How will I govern this planet without my Tail of Leadership?”
 
-252 Cat dialog success:
+√252 Cat dialog success:
 
 You bind up The Senator's broken tail with a stick from the woods.
 
@@ -132,16 +132,16 @@ It bubbles and froths all day long, preventing Būg Planet from breaking the sec
 Touching a geyser is forbidden, due to Law #1709, just passed this morning by Senator Puppy. You're not sure if Puppy has jurisdiction over what you do on other planets, because you are not a lawyer.
 
 
-350 Ladybug desc:
+√350 Ladybug desc:
 
 This strange alien lives at the edge of the Forest of Tears. You are not sure what it is called, but based on its coloration, you think it is a MechaDroid built for warning and defense. 
 
-351 Ladybug dialog failed state:
+√351 Ladybug dialog failed state:
 
 "The trees are always leaking," it says. "I look on the bright side– At least I am never thirsty!" Its armor plating is constantly moist, and you are worried it will rust.
 
 
-352 Ladybug dialog success state:
+√352 Ladybug dialog success state:
 
 You give your mushroom sample to the MecaDroid.
 
@@ -154,7 +154,7 @@ This is a strange hummingbird. She is yellow and black. Based on the way she mus
 
 361 Bee dialog failed state:
 
-“I have sung the highest note there is to sing. Yet no one has applauded or given me any recognition. I dream of carrying a bouquet of flowers off the stage.”
+“I have stung the highest note there is to sting. Yet no one has applauded or given me any recognition. I dream of carrying a bouquet of flowers off the stage.”
 
 362 Bee dialog success state:
 
