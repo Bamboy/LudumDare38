@@ -1,13 +1,36 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class DialogSequence : Interactable 
 {
 
-	[TextArea]
-	public List<string> dialog = new List<string>();
-	//TODO update dialog array when game state changes
+	public List<DialogCondition> dialogConditions
+	{
+		get{ return dialogObjects[blockIndex].dialogConditions; }
+	}
+	public List<DialogAction> dialogActions
+	{
+		get{ return dialogObjects[blockIndex].dialogActions; }
+	}
+
+
+	public List<string> dialog
+	{
+		get{ return dialogObjects[blockIndex].dialog; }
+	}
+
+	private int bIndex = 0;
+
+	public int blockIndex
+	{
+		get{ return bIndex; }
+		set{ bIndex = Mathf.Clamp( value, 0, dialogObjects.Count - 1 ); }
+	}
+	[SerializeField]
+	public List< DialogBlock > dialogObjects = new List< DialogBlock >();
+
 
 	private AudioSource src;
 	void Start()
@@ -21,7 +44,12 @@ public class DialogSequence : Interactable
 		}
 		if( src.clip == null )
 			src.clip = Player.singleton.genericInteract;
+
+
 	}
+
+
+
 	public bool WaitForRelease( KeyCode code = KeyCode.E )
 	{
 		if( Input.GetKeyUp( code ) )

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class DisplayString : MonoBehaviour 
 {
@@ -76,6 +77,7 @@ public class DisplayString : MonoBehaviour
 	public bool charBreak = false;
 	IEnumerator Display()
 	{
+		yield return null; //Skip a frame so other scripts have time to initalize
 		while( true )
 		{
 			if( sequence == null )
@@ -85,9 +87,10 @@ public class DisplayString : MonoBehaviour
 			}
 			while( sequence == null )
 				yield return null;
-			
+
 			window.enabled = true;
 			pointer.enabled = false;
+
 
 			for (int i = 0; i < sequence.dialog[ dialogIndex ].Length; i++) //Display char Loop
 			{
@@ -139,6 +142,14 @@ public class DisplayString : MonoBehaviour
 				}
 			}
 
+
+			DialogAction act = sequence.dialogActions[ dialogIndex ];
+			if( act != null )
+			{
+				act.DoAction( sequence );
+			}
+
+
 			//useButtonDown = false;
 			//while( useButtonDown == false )
 			//	yield return null;
@@ -147,22 +158,20 @@ public class DisplayString : MonoBehaviour
 			charIndex = 0;
 			useButtonDown = false;
 
-			//if( moveNext )
-			//{
-				if( sequence.dialog.Count - 1 <= dialogIndex ) //Check if we've reached the end of dialog sequence
-				{
-					//sequence.dialog[ dialogIndex ] = sequence.dialog[ dialogIndex ];
-					sequence = null;
-					dialogIndex = 0;
-					pointer.enabled = false;
-					window.enabled = false;
-				}
-				else
-				{
-					dialogIndex++;
-				}
-			//	moveNext = false;
-			//}
+
+
+			if( sequence.dialog.Count - 1 <= dialogIndex ) //Check if we've reached the end of dialog sequence
+			{
+				//sequence.dialog[ dialogIndex ] = sequence.dialog[ dialogIndex ];
+				sequence = null;
+				dialogIndex = 0;
+				pointer.enabled = false;
+				window.enabled = false;
+			}
+			else
+			{
+				dialogIndex++;
+			}
 			skippedAnim = false;
 		}
 	}
