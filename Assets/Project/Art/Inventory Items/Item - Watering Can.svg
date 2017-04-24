@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128mm"
+   height="128mm"
+   viewBox="0 0 453.54331 453.54331"
+   id="svg9071"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Item - Watering Can.svg">
+  <defs
+     id="defs9073" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="193.02462"
+     inkscape:cy="191.19666"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1863"
+     inkscape:window-height="1155"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata9076">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-598.8189)">
+    <g
+       id="g9657"
+       transform="matrix(1.0407707,0,0,1.3493271,-0.25911425,-335.21795)">
+      <path
+         sodipodi:open="true"
+         d="m 826.98691,-383.51089 a 62.089584,40.990925 0 0 1 19.05362,-42.46603 62.089584,40.990925 0 0 1 66.41732,-6.2405 62.089584,40.990925 0 0 1 36.24288,37.27043"
+         sodipodi:end="0"
+         sodipodi:start="2.8588493"
+         sodipodi:ry="40.990925"
+         sodipodi:rx="62.089584"
+         sodipodi:cy="-394.94699"
+         sodipodi:cx="886.61115"
+         sodipodi:type="arc"
+         transform="matrix(-0.07946431,0.99683771,-0.99919145,-0.04020513,0,0)"
+         id="path9627"
+         style="fill:#ffffff;fill-opacity:1;stroke:#5a6c9d;stroke-width:23.06109047;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect9619"
+         d="m 103.97656,754.98017 -30.98828,27.22071 64.2461,73.14453 0,140.0293 176.77539,0 0,-162.63477 -141.73047,0 -68.30274,-77.75977 z"
+         style="fill:#5575cc;fill-opacity:1;stroke:#5a6c9d;stroke-width:15;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         transform="matrix(0.79150531,0.61116229,-0.674543,0.73823556,0,0)"
+         ry="39.251682"
+         rx="16.069723"
+         cy="555.79175"
+         cx="573.02222"
+         id="path9623"
+         style="fill:#5575cc;fill-opacity:1;stroke:#5a6c9d;stroke-width:20.59995651;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="translate(-2.8571429,2.1428571)"
+         id="g9652">
+        <ellipse
+           style="fill:#000000;fill-opacity:1;stroke:#5a6c9d;stroke-width:0;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+           id="path9629"
+           cx="88.214355"
+           cy="749.79736"
+           rx="1.7856996"
+           ry="4.5780029" />
+        <ellipse
+           style="fill:#000000;fill-opacity:1;stroke:#5a6c9d;stroke-width:0;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+           id="path9629-1"
+           cx="81.428574"
+           cy="757.36218"
+           rx="1.7856996"
+           ry="4.5780029" />
+        <ellipse
+           style="fill:#000000;fill-opacity:1;stroke:#5a6c9d;stroke-width:0;stroke-miterlimit:1;stroke-dasharray:none;stroke-opacity:1"
+           id="path9629-9"
+           cx="74.285721"
+           cy="764.50507"
+           rx="1.7856996"
+           ry="4.5780029" />
+      </g>
+    </g>
+  </g>
+</svg>
