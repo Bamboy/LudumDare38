@@ -10,7 +10,6 @@ public class DialogGiveItem : DialogAction
 
 	public override void DoAction( DialogSequence caller )
 	{
-		Debug.Log("Give");
 		Inventory.GiveItem( giveItem );
 
 		switch ( giveItem ) 
@@ -33,10 +32,22 @@ public class DialogTakeItem : DialogAction
 
 	public override void DoAction( DialogSequence caller )
 	{
-		Debug.Log("Take");
 		Inventory.TakeItem( takeItem );
-
-
 	}
 }
 
+[System.Serializable] [CreateAssetMenu(menuName = "Dialog/Give Fuel")]
+public class DialogGiveFuel : DialogAction
+{
+	public float addedFuelTime = 0.5f;
+	//public string removeItem = "";
+
+	public override void DoAction( DialogSequence caller )
+	{
+
+		Player.singleton.maxFuelTime += addedFuelTime;
+		//Inventory.TakeItem( removeItem );
+
+		caller.blockIndex++;
+	}
+}

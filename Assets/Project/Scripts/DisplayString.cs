@@ -143,12 +143,19 @@ public class DisplayString : MonoBehaviour
 			}
 
 
+
+
+			DialogCondition con = sequence.dialogConditions[ dialogIndex ];
+			if( con != null )
+			{
+				con.DoAction( sequence );
+			}
+
 			DialogAction act = sequence.dialogActions[ dialogIndex ];
 			if( act != null )
 			{
 				act.DoAction( sequence );
 			}
-
 
 			//useButtonDown = false;
 			//while( useButtonDown == false )

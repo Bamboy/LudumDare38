@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 public abstract class DialogCondition : DialogAction
 {
-	public int jumpToIndex = 0;
+	public int jumpToBlockIndex = 0;
 	public bool SwitchDialogBlockOnSuccess = true;
 	public override void DoAction( DialogSequence caller )
 	{
@@ -40,6 +40,6 @@ public class DialogItemCondition : DialogCondition
 
 	public override void OnSuccess( DialogSequence caller )
 	{
-		caller.blockIndex = jumpToIndex;
+		caller.blockIndex = jumpToBlockIndex;
 	}
 }
