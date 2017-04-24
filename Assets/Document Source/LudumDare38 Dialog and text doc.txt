@@ -23,12 +23,12 @@ You pick up a decent stick here, in case you want to roast marshmallows later.
 
 
 220 HouseDesc:
-This is your Hōm on Hōm. It has a nice fireplace and all the hygeiene implements you use to get ready in the morning.
+This is your Hōm on Hōm. It has a nice fireplace and all the hygiene implements you use to get ready in the morning.
 
 Your attic is full of many tools to solve many problems. But you almost never have any problems.
 
 221 House interaction:
-Hygiene is important. You pack an overnight kit, in case you find a way to reach escape velocity. It contains: A brush, strawberry-flavored toothpaste, and a teddy bear.
+Hygiene is important. You pack an overnight kit, in case you find a way to reach escape velocity. It contains: A brush, strawberry-flavored toothpaste, and a teddy bear.[Deprecated - Stephan did hairbrush only.]
 
 230 Garden Desc:
 
@@ -90,8 +90,11 @@ You give your favorite hairbrush to Baaaaahthazär.
 “My skin can relax now and so can my split ends. I am filled with relief. Here is my love for you.”
 
 
-
 Little Būg Planet (300)
+
+300 Landing Text
+
+You have discovered a new planet! The creatures here seem tiny and fragile. What features will you witness, what creatures will you befriend?
 
 310 Forest of Rain
 
@@ -142,7 +145,7 @@ This strange alien lives at the edge of the Forest of Tears. You are not sure wh
 
 You give your mushroom sample to the MecaDroid.
 
-"Goodness! You traveled all across the world to get me this protective parasol from the parasol farms? I will be your friend forever!"
+"Goodness! You traveled all across the world to get me this protective parasol from the parasol farms? I will be your friend forever!" (Hearts animation, jetpack grows.)
 
 360 Bee desc:
 
@@ -163,7 +166,7 @@ The seed fails to grow, but...
 
 [flowers grow]
 
-"Oh joy! Now I can make my own flowers any time I want. And they will listen to my operas whenever I wish to sing."
+"Oh joy! Now I can make my own flowers any time I want. And they will listen to my operas whenever I wish to sing. Here is my love for you.” (Hearts animation, jetpack grows.)"
 
 
 370 Worm desc:
@@ -176,24 +179,116 @@ This new friend appears to be some kind of lizard, just like your friend Baaahth
 
 372 Worm success state dialog:
 
-You sprinkle water from the Forest of Tears, hoping the sadness of the Cloud Trees will heal your new friend. He plumps up like a soaked raisin before thanking you.
+You sprinkle water from the Forest of Tears, hoping the sadness of the Cloud Trees will heal your new friend. He plumps up like a reconstituted raisin.
 
-"A Space Explorer, huh?" He tells you of rumors of an ancient lost world filled with creatures too strange to describe.
+"Glug glug! This is how we say thank you on our Little Būg Planet. Here is my love for you.” (Hearts animation, jetpack grows.)
+
+He pauses in thought. "A Space Explorer, huh?" He tells you of rumors of an ancient lost world filled with creatures too strange to describe.
 
 
 Dynō (400)
 
+400 Landing Text
+
+You are truly becoming a Space Explorer worthy of your family line. This planet has never been seen by yourself! Everything here seems larger, even the creatures and their homes.
 
 
-I used to be a Space Explorer like you…
-But then they stopped making oxy helmets in my size.
+410 Volcano Desc:
 
+It is the biggest geyser in the universe. Or else it is a melting mountain. Perhaps it is both. You take careful note of it in your logbook.
 
+411 Volcano Interaction:
 
+You collect a melted rock from the large geyser.
 
-
-Brōnto hates strawberries.
-
-
+420 Meteor Desc
 
 A strangely glowing rock feel from the sky. Where did it come from? It tastes like mint.
+
+421 Meteor Interaction
+
+Using your built-in rock-sampling tool, you scrape off a chunk of minty fresh space granite.
+
+
+430 Mammoth Ferns
+
+With bigger animals come bigger salads. These leaves are bigger than you are!
+
+431 Fern Interaction
+
+You take a fern leaf. Maybe you can use it to re-roof your house back Hōm.
+
+440 Brōntō Desc
+
+This is the biggest duck you have ever seen. It has a lizard for a tail, and another lizard for a head. Wait till they hear about this back Hōm!
+
+441 Brōntō Dialog Failed State:
+
+The duck tries to speak to you, but something seems to be wrong with his mouth. He looks very sad, and his teeth are dirty and crooked. 
+
+Wait... you don't remember ducks having teeth. Clearly this is a new species of duck.
+
+442 Brōntō success state:
+
+You figure the duck needs cleaner teeth, so you hand over your minty space rock.
+
+The duck chews and smiles. You are nearly blinded by her brilliant smile.
+
+"Dental hygiene is almost as important as mental hygiene. Here is my love for you.” (Hearts animation, jetpack grows.)
+
+450 Dactÿl Desc
+
+The hummingbird you cataloged on the last planet sure was cute, but this one is leathery and huge. You suspect his mother was a couch. He hovers just 2 inches off the ground.
+
+451 Dactÿl failed state dialog:
+
+"Nice to meet you Space Explorer. My name is Dactÿl. It is my duty to protect Dynō from meteors, but after nearly falling into the volcano last spring, I am now terrified to go higher than 2 inches."
+
+452 Dactÿl Success State Desc
+
+You neatly fold the giant fern leaf into a spare backpack, according to the technology passed down through your ancestors. 
+
+"It is called.. a Parashoot?" Dactÿl asks. "It will save me if I fall? Who would do so much to help a stranger? No, now we are friends. Here is my love for you!” (Hearts animation, jetpack grows.)
+
+You do not have the heart to tell him that he still should not fall over volcanoes.
+
+460 Chikasaurus Desc
+
+This meaty feathersnack is being chased by a yugenormous sheep! Neither creature is very smart. They are running in circles.
+
+461 Chikasaurus Failed State Dialog
+
+"Sqqqquaaak!"
+
+He has little time for idle chatter.
+
+470 T-Rex Interaction
+
+You get the attention of the ferocious sheep long enough to give it a gift. You had no time to wrap the melted rock. 
+
+The sheep eats the rock and now she can breathe fire! Why did you do that?!
+
+"Because now I can roast marshmallows without the help of Chikasaurus who refuses to help me roast marshmallows."
+
+462 Chikasaurus Success State Dx
+
+The feathersnack is out of breath from all the running.
+
+"I used to be a Space Explorer like you…
+"But then they stopped making oxy helmets in my size."
+"Thank you for getting rid of that Annoyingsaurus Rex. Here is my love for you!” (Hearts animation, jetpack grows.)
+
+
+
+
+
+4x0 Nest desc [DEPRECIATED]
+
+It is a nest made of stickasauruses and paleolithic feathers. It is full of eggs.
+
+
+
+
+I had this Brontō text in mind for if you tried to use your Hōm hygiene kit to help Bronto's tooth:
+
+Brōnto hates strawberries.
