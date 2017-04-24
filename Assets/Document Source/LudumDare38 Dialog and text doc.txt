@@ -14,36 +14,36 @@ But how will you leave your Hōm?
 
 Hōm (200)
 
-210 Forest description:
+√210 Forest description:
 This is a peaceful tree in a peaceful forest. He never did anything to hurt anyone. He is full of branches.
 
 
-211 Forest interaction:
+√211 Forest interaction:
 You pick up a decent stick here, in case you want to roast marshmallows later.
 
 
-220 HouseDesc:
+√220 HouseDesc:
 This is your Hōm on Hōm. It has a nice fireplace and all the hygiene implements you use to get ready in the morning.
 
 Your attic is full of many tools to solve many problems. But you almost never have any problems.
 
-221 House interaction:
+√221 House interaction:
 Hygiene is important. You pack an overnight kit, in case you find a way to reach escape velocity. It contains: A brush, strawberry-flavored toothpaste, and a teddy bear.[Deprecated - Stephan did hairbrush only.]
 
-230 Garden Desc:
+√230 Garden Desc:
 
 This is your garden. You care for it every day with your handy space suit attachments! Without it on this tiny Hōm world, you would starve.
 
 
-231 Garden interaction:
+√231 Garden interaction:
 Carrots. You hate carrots. Just looking at them makes you want to rip them from the ground. In fact, you think you will!
 
 
-270 Geyser desc:
+√270 Geyser desc:
 
 It bubbles and froths all day long, providing your Hōm with energy.
 
-271 Geyser interaction:
+√271 Geyser interaction:
 
 Touching a geyser is forbidden, due to Law #1709, just passed this morning by Senator Puppy.
 
@@ -75,15 +75,15 @@ You bind up The Senator's broken tail with a stick from the woods.
 
 “My feels are feeling much better. Now I shall pass a good law! Here is my love for you.” (Hearts animation, jetpack grows.)
 
-260 Sheep desc:
+√260 Sheep desc:
 
 Baaahthazär loves your hairdo. But this sad lizard has tangled hair. He tells you it itches.
 
 
-261 Sheep failed state dialog:
+√261 Sheep failed state dialog:
 “I have set the world’s record for longest, liveliest lizard hair. But it keeps getting tangled! And I have no hands.”
 
-262 Sheep dialog success:
+√262 Sheep dialog success:
 
 You give your favorite hairbrush to Baaaaahthazär.
 
