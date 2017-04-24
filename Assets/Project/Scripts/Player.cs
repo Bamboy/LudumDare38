@@ -15,8 +15,8 @@ public class Player : MonoBehaviour
 	public float minDrag = 0.2f;
 	public float maxDrag = 1f;
 
-	public static float maxFuelTime = 1f;
-	public static float fuel = 0f;
+	public float maxFuelTime = 12f;
+	public float fuel = 0f;
 	public static bool fuelDepleted = false;
 
 	public static bool grounded;
@@ -26,12 +26,15 @@ public class Player : MonoBehaviour
 
 	public static void IncreaseFuel()
 	{
-		maxFuelTime += 1f;
+		singleton.maxFuelTime += 1f;
 	}
+	public float maxAirborneTime{ get{ return maxFuelTime * 1.5f + 10f; } }
+	public float airborneForcePenalty = 0.1f;
+	public float airTime = 0f;
+
+	public static float radius = 0.3f;
 
 
-	GameObject[] planets;
-	GameObject closest = null;
 	[HideInInspector]
 	public CircleCollider2D closestCollider = null;
 	[HideInInspector]
@@ -46,63 +49,89 @@ public class Player : MonoBehaviour
 	}
 	void Start () 
 	{
-		planets = GameObject.FindGameObjectsWithTag("Planet");
 		rb = GetComponent<Rigidbody2D>();
 		cameraTarget = transform.FindChild("CameraTarget");
 	}
-
 	void Update()
 	{
-		if( closest != null )
-		{
-			Vector3 dirToPlayer = VectorExtras.Direction(closest.transform.position, transform.position);
-			transform.rotation = Quaternion.LookRotation( Vector3.forward, dirToPlayer); //Rotate so our down is always toward the closest planet
-		}
-		else
-		{
-			rb.drag = minDrag;
-			grounded = false;
-		}
-
-
+		Vector3 dirToPlayer = VectorExtras.Direction(closest.transform.position, transform.position);
+		transform.rotation = Quaternion.LookRotation( Vector3.forward, dirToPlayer); //Rotate so our down is always toward the closest planet
 
 	}
-
+		
+	private int closeIndex = 0;
 	private float movePenalty = 0.65f;
-
+	private Planet closest{ get{ return Planet.planets[closeIndex]; } }
 	void FixedUpdate () 
 	{
 		float closeDist = Mathf.Infinity;
-		foreach(GameObject planet in planets) //Simulate Gravity
+
+		List<Vector2> forces = new List<Vector2>();
+		List<float> distances = new List<float>();
+		for (int i = 0; i < Planet.planets.Count; i++) 
 		{
-			float dist = Vector3.Distance(planet.transform.position, transform.position);
+
+			float dist = Vector3.Distance(Planet.planets[i].transform.position, transform.position);
+			distances.Add( dist );
+
+
 
 			if( dist < closeDist )
 			{
 				closeDist = dist;
-				closest = planet;
+				closeIndex = i;
 				closestCollider = closest.GetComponent<CircleCollider2D>();
 			}
 
+			forces.Add( Planet.planets[i].GravityForce() );
+
+			/*
 			if (dist <= maxGravDist)
 			{
 				Vector3 v = planet.transform.position - transform.position;
 				rb.AddForce(v.normalized * (1.0f - dist / maxGravDist) * maxGravity);
-			}
+			}*/
 		}
+
 
 		float distToSurface = 0f;
 		if( closestCollider != null )
-			distToSurface = Vector3.Distance( closest.transform.position, transform.position ) - closestCollider.radius;
+		{
+			distToSurface = Planet.planets[closeIndex].DistanceToSurface();
+
+			float dragRange = Planet.planets[closeIndex].radius * 0.6f;
+
+			//Vector3 planetSurface = VectorExtras.OffsetPosInPointDirection( Planet.planets[closeIndex].transform.position, transform.position, Planet.planets[closeIndex].radius );
+			//Vector3 dragEnds = VectorExtras.OffsetPosInPointDirection( Planet.planets[closeIndex].transform.position, transform.position, Planet.planets[closeIndex].radius + dragRange );
+
+			//Calculate T...
+			float progress = VectorExtras.ReverseLerp( Vector3.Distance( Planet.planets[closeIndex].transform.position, transform.position ), 
+				Planet.planets[closeIndex].radius, Planet.planets[closeIndex].radius + dragRange );
+
+			rb.drag = Mathf.Lerp( maxDrag, minDrag, progress );
+
+			//rb.drag = Mathf.Lerp( 
+
+		}
+
+		Vector2 forceSum = new Vector2();
+		for (int i = 0; i < Planet.planets.Count; i++) 
+		{
+			//forceSum += Vector2.ClampMagnitude( forces[i], 5f );
+			rb.AddForce( Vector2.ClampMagnitude( forces[i], 4f ) );
+		}
+
+		Vector2 playerPos = new Vector2(transform.position.x, transform.position.y);
+		grounded = Physics2D.CircleCast( playerPos, 0.16f, VectorExtras.Direction(playerPos, new Vector2(closest.transform.position.x, closest.transform.position.y)), 0.0f, LayerMask.NameToLayer("Planet") );
 
 
-		grounded = Physics2D.CircleCast( new Vector2(transform.position.x, transform.position.y), 0.16f, VectorExtras.Direction(transform.position, closest.transform.position), 0f, -LayerMask.NameToLayer("Planet") );
+
 
 		if( grounded )
 		{
 			//More drag if we are on the ground
-			rb.drag = Mathf.Lerp( maxDrag / 2f, minDrag / 2f, VectorExtras.ReverseLerp(distToSurface, 0f, minDragDistance) );
-			rb.velocity = rb.velocity * 0.95f;
+			//rb.drag = Mathf.Lerp( maxDrag, minDrag, VectorExtras.ReverseLerp(distToSurface, 0f, minDragDistance) );
+			rb.velocity = rb.velocity * 0.98f;
 
 			Vector3 force = Vector3.zero;
 			if( Mathf.Abs(Input.GetAxis("Horizontal")) > 0.05f )
@@ -110,31 +139,29 @@ public class Player : MonoBehaviour
 
 
 			rb.AddForce( new Vector2( force.x, force.y ) );
-
-			//rb.velocity =  new Vector2( force.x, force.y );
-
-			/*
-			if( rb.velocity.magnitude >= 1.0f )
-				rb.velocity = rb.velocity * 0.5f;
-			else if( rb.velocity.magnitude <= 0.8f )
-				rb.velocity = rb.velocity * 1.05f; */
 		}
 		else
 		{
-			rb.drag = Mathf.Lerp( maxDrag, minDrag, VectorExtras.ReverseLerp(distToSurface, 0f, minDragDistance) );
+			//rb.drag = Mathf.Lerp( maxDrag, minDrag, VectorExtras.ReverseLerp(distToSurface, 0f, minDragDistance) );
+			airTime += Time.fixedDeltaTime;
+			if( airTime >= maxAirborneTime )
+			{
+				Vector3 dir = VectorExtras.Direction(transform.position, closest.transform.position);
+				//forceSum += new Vector2(dir.x, dir.y) * airborneForcePenalty;
+
+				rb.AddForce(new Vector2(dir.x, dir.y) * airborneForcePenalty);
+			}
 
 			Vector3 force = Vector3.zero;
 			if( Mathf.Abs(Input.GetAxis("Horizontal")) > 0.05f )
 				force = Input.GetAxis("Horizontal") * transform.right * moveForce;
 
-			/*if( Input.GetKey( KeyCode.D ) )
-				force = transform.right * moveForce;
-			else if( Input.GetKey( KeyCode.A ) )
-				force = -transform.right * moveForce; */
-
-			//rb.velocity =  new Vector2( force.x, force.y );
 			rb.AddForce( new Vector2( force.x, force.y ) );
 		}
+
+
+		//rb.AddForce( forceSum );
+
 
 
 
@@ -159,6 +186,9 @@ public class Player : MonoBehaviour
 				}
 			}
 		}
+
+
+
 	}
 
 	public static bool interacting = false;
@@ -167,6 +197,8 @@ public class Player : MonoBehaviour
 		fuel = Mathf.Clamp( fuel + (Time.fixedDeltaTime * 2f), 0f, maxFuelTime );
 		if( fuelDepleted && fuel >= maxFuelTime )
 			fuelDepleted = false;
+
+		airTime = 0f;
 
 		if( Input.GetButtonDown("Use") && interacting == false )
 		{
@@ -212,16 +244,4 @@ public class Player : MonoBehaviour
 
 
 
-
-
-	void OnDrawGizmos()
-	{
-		if( !Application.isPlaying )
-			return;
-		
-		foreach (GameObject planet in planets) 
-		{
-			Gizmos.DrawWireSphere( planet.transform.position, maxGravDist );
-		}
-	}
 }

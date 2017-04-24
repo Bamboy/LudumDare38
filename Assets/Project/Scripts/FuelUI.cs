@@ -18,7 +18,7 @@ public class FuelUI : MonoBehaviour
 
 	void LateUpdate () 
 	{
-		float fuelprogress = VectorExtras.ReverseLerp( Player.fuel, 0f, Player.maxFuelTime );
+		float fuelprogress = VectorExtras.ReverseLerp( Player.singleton.fuel, 0f, Player.singleton.maxFuelTime );
 		scale.fillAmount = fuelprogress;
 
 		fuelprogress = VectorExtras.MirrorValue( fuelprogress, 0f, 1f );
