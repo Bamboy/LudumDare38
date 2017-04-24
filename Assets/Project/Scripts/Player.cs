@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
 	private static Player instance;
 	public static Player singleton{ get{ return instance; } }
 
+	public AudioClip genericInteract;
+
 	public float maxGravDist = 4.0f;
 	public float maxGravity = 35.0f;
 
