@@ -27,19 +27,3 @@ public abstract class DialogCondition : DialogAction
 	public abstract void OnSuccess( DialogSequence caller );
 	//public abstract void OnFailure( DialogSequence caller );
 }
-
-[System.Serializable] [CreateAssetMenu(menuName = "Dialog/Item Condition")]
-public class DialogItemCondition : DialogCondition
-{
-	public string RequiredItem = "";
-
-	public override bool Evaluate( DialogSequence caller )
-	{
-		return Inventory.HasItem( RequiredItem );
-	}
-
-	public override void OnSuccess( DialogSequence caller )
-	{
-		caller.blockIndex = jumpToBlockIndex;
-	}
-}

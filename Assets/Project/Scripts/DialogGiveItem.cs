@@ -23,31 +23,3 @@ public class DialogGiveItem : DialogAction
 	}
 
 }
-
-[System.Serializable][CreateAssetMenu(menuName = "Dialog/TakeItem")]
-public class DialogTakeItem : DialogAction
-{
-	[Tooltip("The item that will be taken from the player")]
-	public string takeItem;
-
-	public override void DoAction( DialogSequence caller )
-	{
-		Inventory.TakeItem( takeItem );
-	}
-}
-
-[System.Serializable] [CreateAssetMenu(menuName = "Dialog/Give Fuel")]
-public class DialogGiveFuel : DialogAction
-{
-	public float addedFuelTime = 0.5f;
-	//public string removeItem = "";
-
-	public override void DoAction( DialogSequence caller )
-	{
-
-		Player.singleton.maxFuelTime += addedFuelTime;
-		//Inventory.TakeItem( removeItem );
-
-		caller.blockIndex++;
-	}
-}

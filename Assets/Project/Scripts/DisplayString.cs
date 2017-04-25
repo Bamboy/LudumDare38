@@ -42,6 +42,7 @@ public class DisplayString : MonoBehaviour
 	public static bool displayingCharacters{ get{ return dialogIsOpen && (singleton.charIndex >= sequence.dialog[ dialogIndex ].Length - 1); } }
 
 	public static DialogSequence sequence = null;
+	//private static int diaIndex = 0;
 	public static int dialogIndex = 0;
 	public static void StartDialog( DialogSequence seq )
 	{
@@ -144,18 +145,20 @@ public class DisplayString : MonoBehaviour
 
 
 
-
 			DialogCondition con = sequence.dialogConditions[ dialogIndex ];
 			if( con != null )
 			{
 				con.DoAction( sequence );
 			}
 
+
+
 			DialogAction act = sequence.dialogActions[ dialogIndex ];
 			if( act != null )
 			{
 				act.DoAction( sequence );
 			}
+
 
 			//useButtonDown = false;
 			//while( useButtonDown == false )
@@ -166,22 +169,30 @@ public class DisplayString : MonoBehaviour
 			useButtonDown = false;
 
 
-
-			if( sequence.dialog.Count - 1 <= dialogIndex ) //Check if we've reached the end of dialog sequence
+			skippedAnim = false;
+			if( blockChanged )
 			{
-				//sequence.dialog[ dialogIndex ] = sequence.dialog[ dialogIndex ];
-				sequence = null;
-				dialogIndex = 0;
-				pointer.enabled = false;
-				window.enabled = false;
+				blockChanged = false;
+				continue;
 			}
 			else
 			{
-				dialogIndex++;
+				if( sequence.dialog.Count - 1 <= dialogIndex ) //Check if we've reached the end of dialog sequence
+				{
+					sequence = null;
+					dialogIndex = 0;
+					pointer.enabled = false;
+					window.enabled = false;
+				}
+				else
+				{
+					dialogIndex++;
+				}
 			}
-			skippedAnim = false;
+
 		}
 	}
+	public bool blockChanged = false;
 
 	void DisplayPartial( string full, int charCount )
 	{

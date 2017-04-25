@@ -26,7 +26,15 @@ public class DialogSequence : Interactable
 	public int blockIndex
 	{
 		get{ return bIndex; }
-		set{ bIndex = Mathf.Clamp( value, 0, dialogObjects.Count - 1 ); }
+		set{ 
+
+			int newValue = Mathf.Clamp( value, 0, dialogObjects.Count - 1 ); 
+			if( newValue != bIndex )
+			{
+				bIndex = newValue;
+				DisplayString.dialogIndex = 0;
+			}
+		}
 	}
 	[SerializeField]
 	public List< DialogBlock > dialogObjects = new List< DialogBlock >();
