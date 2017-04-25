@@ -193,42 +193,42 @@ Dynō (400)
 You are truly becoming a Space Explorer worthy of your family line. This planet has never been seen by yourself! Everything here seems larger, even the creatures and their homes.
 
 
-410 Volcano Desc:
+√410 Volcano Desc:
 
 It is the biggest geyser in the universe. Or else it is a melting mountain. Perhaps it is both. You take careful note of it in your logbook.
 
-411 Volcano Interaction:
+√411 Volcano Interaction:
 
 You collect a melted rock from the large geyser.
 
-420 Meteor Desc
+√420 Meteor Desc
 
 A strangely glowing rock feel from the sky. Where did it come from? It tastes like mint.
 
-421 Meteor Interaction
+√421 Meteor Interaction
 
 Using your built-in rock-sampling tool, you scrape off a chunk of minty fresh space granite.
 
 
-430 Mammoth Ferns
+√430 Mammoth Ferns
 
 With bigger animals come bigger salads. These leaves are bigger than you are!
 
-431 Fern Interaction
+√431 Fern Interaction
 
 You take a fern leaf. Maybe you can use it to re-roof your house back Hōm.
 
-440 Brōntō Desc
+√440 Brōntō Desc
 
 This is the biggest duck you have ever seen. It has a lizard for a tail, and another lizard for a head. Wait till they hear about this back Hōm!
 
-441 Brōntō Dialog Failed State:
+√441 Brōntō Dialog Failed State:
 
 The duck tries to speak to you, but something seems to be wrong with his mouth. He looks very sad, and his teeth are dirty and crooked. 
 
-Wait... you don't remember ducks having teeth. Clearly this is a new species of duck.
+Wait... you don't remember ducks having teeth. Clearly this is a new species of duck!
 
-442 Brōntō success state:
+√442 Brōntō success state:
 
 You figure the duck needs cleaner teeth, so you hand over your minty space rock.
 
@@ -236,15 +236,15 @@ The duck chews and smiles. You are nearly blinded by her brilliant smile.
 
 "Dental hygiene is almost as important as mental hygiene. Here is my love for you.” (Hearts animation, jetpack grows.)
 
-450 Dactÿl Desc
+√450 Dactÿl Desc
 
 The hummingbird you cataloged on the last planet sure was cute, but this one is leathery and huge. You suspect his mother was a couch. He hovers just 2 inches off the ground.
 
-451 Dactÿl failed state dialog:
+√451 Dactÿl failed state dialog:
 
 "Nice to meet you Space Explorer. My name is Dactÿl. It is my duty to protect Dynō from meteors, but after nearly falling into the volcano last spring, I am now terrified to go higher than 2 inches."
 
-452 Dactÿl Success State Desc
+√452 Dactÿl Success State Desc
 
 You neatly fold the giant fern leaf into a spare backpack, according to the technology passed down through your ancestors. 
 
@@ -252,17 +252,17 @@ You neatly fold the giant fern leaf into a spare backpack, according to the tech
 
 You do not have the heart to tell him that he still should not fall over volcanoes.
 
-460 Chikasaurus Desc
+√460 Chikasaurus Desc
 
-This meaty feathersnack is being chased by a yugenormous sheep! Neither creature is very smart. They are running in circles.
+This meaty feathersnack is being chased by a ferocious sheep! Neither creature is very smart. They are running in circles.
 
-461 Chikasaurus Failed State Dialog
+√461 Chikasaurus Failed State Dialog
 
 "Sqqqquaaak!"
 
 He has little time for idle chatter.
 
-470 T-Rex Interaction
+√470 T-Rex Interaction
 
 You get the attention of the ferocious sheep long enough to give it a gift. You had no time to wrap the melted rock. 
 
@@ -270,7 +270,7 @@ The sheep eats the rock and now she can breathe fire! Why did you do that?!
 
 "Because now I can roast marshmallows without the help of Chikasaurus who refuses to help me roast marshmallows."
 
-462 Chikasaurus Success State Dx
+√462 Chikasaurus Success State Dx
 
 The feathersnack is out of breath from all the running.
 
