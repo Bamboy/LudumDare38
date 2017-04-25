@@ -47,29 +47,29 @@ It bubbles and froths all day long, providing your Hōm with energy.
 
 Touching a geyser is forbidden, due to Law #1709, just passed this morning by Senator Puppy.
 
-240 Bunny desc:
+√240 Bunny desc:
 
 This is your friend Nün, your favorite goat in the whole universe. Nün has been sad lately.
 
-241: Bunny dialog failed state:
+√241: Bunny dialog failed state:
 
 “Help, Space Explorer. I am a very sad goat. My tummy hurts!”
 
-242 Bunny dialog success:
+√242 Bunny dialog success:
 
 The only food you have handy is this carrot. You feel bad you are giving it your least-favorite food.
 
 “Delicious! Thank you for this carrot. Carrots are a goat’s favorite food. Here is my love for you.” (Hearts animation, jetpack grows.)
 
-250 Cat desc:
+√250 Cat desc:
 
 Puppy is a Senator and has a very important job governing your Hōm. What’s this? Puppy has hurt herself while floating in the geyser. 
 
-251 Cat dialog failed state:
+√251 Cat dialog failed state:
 
 Puppy is crying. “Ouch. *sadface* How will I govern this planet without my Tail of Leadership?”
 
-252 Cat dialog success:
+√252 Cat dialog success:
 
 You bind up The Senator's broken tail with a stick from the woods.
 
@@ -96,67 +96,67 @@ Little Būg Planet (300)
 
 You have discovered a new planet! The creatures here seem tiny and fragile. What features will you witness, what creatures will you befriend?
 
-310 Forest of Rain
+√310 Forest of Rain
 
 Here there are clouds propped up on sticks, crying their eternal tears of... joy. The locals have another name for this place, "Atmosphere Scrubberville," but you will call it, The Forest of Rain.
 
-311 Forest of Rain interaction:
+√311 Forest of Rain interaction:
 
 You gather a bucket of tree tears and place them in your space suit's watering can attachment.
 
 
-320 Mushrooms
+√320 Mushrooms
 
 You have never seen mushrooms before, but you read about them in dusty tomes. Here before you lies an entire field of them, growing in the sun.
 
-321 Mushroom interaction:
+√321 Mushroom interaction:
 
 You collect a sample mushroom for your sample collection.
 
 
-330 Flowers
+√330 Flowers
 
 There are many things growing on this planet. Including this river of flowers. They sparkle with glimmer and compete with one another in beauty pageants.
 
-331 Flowers Interaction:
+√331 Flowers Interaction:
 
 You can't bear to pick these flowers, for then they shall die in the full bloom of life. However, you figure taking a few of their flower-eggs can't hurt. And they can't really do anything to stop you.
 
 
-340 Geyser desc:
+√340 Geyser desc:
 
 It bubbles and froths all day long, preventing Būg Planet from breaking the second law of wormodynamics.
 
-341 Geyser interaction:
+√341 Geyser interaction:
 
 Touching a geyser is forbidden, due to Law #1709, just passed this morning by Senator Puppy. You're not sure if Puppy has jurisdiction over what you do on other planets, because you are not a lawyer.
 
 
-350 Ladybug desc:
+√350 Ladybug desc:
 
 This strange alien lives at the edge of the Forest of Tears. You are not sure what it is called, but based on its coloration, you think it is a MechaDroid built for warning and defense. 
 
-351 Ladybug dialog failed state:
+√351 Ladybug dialog failed state:
 
 "The trees are always leaking," it says. "I look on the bright side– At least I am never thirsty!" Its armor plating is constantly moist, and you are worried it will rust.
 
 
-352 Ladybug dialog success state:
+√352 Ladybug dialog success state:
 
 You give your mushroom sample to the MecaDroid.
 
 "Goodness! You traveled all across the world to get me this protective parasol from the parasol farms? I will be your friend forever!" (Hearts animation, jetpack grows.)
 
-360 Bee desc:
+√360 Bee desc:
 
 This is a strange hummingbird. She is yellow and black. Based on the way she musically voculates, you guess correctly that she is an opera stinger.
 
 
-361 Bee dialog failed state:
+√361 Bee dialog failed state:
 
-“I have sung the highest note there is to sing. Yet no one has applauded or given me any recognition. I dream of carrying a bouquet of flowers off the stage.”
+“I have stung the highest note there is to sting. Yet no one has applauded or given me any recognition. I dream of carrying a bouquet of flowers off the stage.”
 
-362 Bee dialog success state:
+√362 Bee dialog success state:
 
 You have no flowers to give, but perhaps planting some will make her happy.
 
@@ -169,15 +169,15 @@ The seed fails to grow, but...
 "Oh joy! Now I can make my own flowers any time I want. And they will listen to my operas whenever I wish to sing. Here is my love for you.” (Hearts animation, jetpack grows.)"
 
 
-370 Worm desc:
+√370 Worm desc:
 
 This new friend appears to be some kind of lizard, just like your friend Baaahthazär back Hōm. With two important differences: This creature has no legs or bones.
 
-371 Worm failed state dialog:
+√371 Worm failed state dialog:
 
 "If you are a Space Explorer, I must seem very strange. Stranger still, since my skin is dry and brittle. I am about to be flat and desiccated. I know many secrets I have dug from the earth, but I fear I am in no condition to chat."
 
-372 Worm success state dialog:
+√372 Worm success state dialog:
 
 You sprinkle water from the Forest of Tears, hoping the sadness of the Cloud Trees will heal your new friend. He plumps up like a reconstituted raisin.
 
@@ -193,42 +193,42 @@ Dynō (400)
 You are truly becoming a Space Explorer worthy of your family line. This planet has never been seen by yourself! Everything here seems larger, even the creatures and their homes.
 
 
-410 Volcano Desc:
+√410 Volcano Desc:
 
 It is the biggest geyser in the universe. Or else it is a melting mountain. Perhaps it is both. You take careful note of it in your logbook.
 
-411 Volcano Interaction:
+√411 Volcano Interaction:
 
 You collect a melted rock from the large geyser.
 
-420 Meteor Desc
+√420 Meteor Desc
 
 A strangely glowing rock feel from the sky. Where did it come from? It tastes like mint.
 
-421 Meteor Interaction
+√421 Meteor Interaction
 
 Using your built-in rock-sampling tool, you scrape off a chunk of minty fresh space granite.
 
 
-430 Mammoth Ferns
+√430 Mammoth Ferns
 
 With bigger animals come bigger salads. These leaves are bigger than you are!
 
-431 Fern Interaction
+√431 Fern Interaction
 
 You take a fern leaf. Maybe you can use it to re-roof your house back Hōm.
 
-440 Brōntō Desc
+√440 Brōntō Desc
 
 This is the biggest duck you have ever seen. It has a lizard for a tail, and another lizard for a head. Wait till they hear about this back Hōm!
 
-441 Brōntō Dialog Failed State:
+√441 Brōntō Dialog Failed State:
 
 The duck tries to speak to you, but something seems to be wrong with his mouth. He looks very sad, and his teeth are dirty and crooked. 
 
-Wait... you don't remember ducks having teeth. Clearly this is a new species of duck.
+Wait... you don't remember ducks having teeth. Clearly this is a new species of duck!
 
-442 Brōntō success state:
+√442 Brōntō success state:
 
 You figure the duck needs cleaner teeth, so you hand over your minty space rock.
 
@@ -236,15 +236,15 @@ The duck chews and smiles. You are nearly blinded by her brilliant smile.
 
 "Dental hygiene is almost as important as mental hygiene. Here is my love for you.” (Hearts animation, jetpack grows.)
 
-450 Dactÿl Desc
+√450 Dactÿl Desc
 
 The hummingbird you cataloged on the last planet sure was cute, but this one is leathery and huge. You suspect his mother was a couch. He hovers just 2 inches off the ground.
 
-451 Dactÿl failed state dialog:
+√451 Dactÿl failed state dialog:
 
 "Nice to meet you Space Explorer. My name is Dactÿl. It is my duty to protect Dynō from meteors, but after nearly falling into the volcano last spring, I am now terrified to go higher than 2 inches."
 
-452 Dactÿl Success State Desc
+√452 Dactÿl Success State Desc
 
 You neatly fold the giant fern leaf into a spare backpack, according to the technology passed down through your ancestors. 
 
@@ -252,17 +252,17 @@ You neatly fold the giant fern leaf into a spare backpack, according to the tech
 
 You do not have the heart to tell him that he still should not fall over volcanoes.
 
-460 Chikasaurus Desc
+√460 Chikasaurus Desc
 
-This meaty feathersnack is being chased by a yugenormous sheep! Neither creature is very smart. They are running in circles.
+This meaty feathersnack is being chased by a ferocious sheep! Neither creature is very smart. They are running in circles.
 
-461 Chikasaurus Failed State Dialog
+√461 Chikasaurus Failed State Dialog
 
 "Sqqqquaaak!"
 
 He has little time for idle chatter.
 
-470 T-Rex Interaction
+√470 T-Rex Interaction
 
 You get the attention of the ferocious sheep long enough to give it a gift. You had no time to wrap the melted rock. 
 
@@ -270,7 +270,7 @@ The sheep eats the rock and now she can breathe fire! Why did you do that?!
 
 "Because now I can roast marshmallows without the help of Chikasaurus who refuses to help me roast marshmallows."
 
-462 Chikasaurus Success State Dx
+√462 Chikasaurus Success State Dx
 
 The feathersnack is out of breath from all the running.
 
