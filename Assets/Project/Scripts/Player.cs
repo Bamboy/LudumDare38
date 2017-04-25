@@ -26,10 +26,6 @@ public class Player : MonoBehaviour
 	public float fuelForce = 10f;
 	public float moveForce = 1f;
 
-	public static void IncreaseFuel()
-	{
-		singleton.maxFuelTime += 1f;
-	}
 	public float maxAirborneTime{ get{ return maxFuelTime * 1.5f + 10f; } }
 	public float airborneForcePenalty = 0.1f;
 	public float airTime = 0f;
