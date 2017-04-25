@@ -96,38 +96,38 @@ Little Būg Planet (300)
 
 You have discovered a new planet! The creatures here seem tiny and fragile. What features will you witness, what creatures will you befriend?
 
-310 Forest of Rain
+√310 Forest of Rain
 
 Here there are clouds propped up on sticks, crying their eternal tears of... joy. The locals have another name for this place, "Atmosphere Scrubberville," but you will call it, The Forest of Rain.
 
-311 Forest of Rain interaction:
+√311 Forest of Rain interaction:
 
 You gather a bucket of tree tears and place them in your space suit's watering can attachment.
 
 
-320 Mushrooms
+√320 Mushrooms
 
 You have never seen mushrooms before, but you read about them in dusty tomes. Here before you lies an entire field of them, growing in the sun.
 
-321 Mushroom interaction:
+√321 Mushroom interaction:
 
 You collect a sample mushroom for your sample collection.
 
 
-330 Flowers
+√330 Flowers
 
 There are many things growing on this planet. Including this river of flowers. They sparkle with glimmer and compete with one another in beauty pageants.
 
-331 Flowers Interaction:
+√331 Flowers Interaction:
 
 You can't bear to pick these flowers, for then they shall die in the full bloom of life. However, you figure taking a few of their flower-eggs can't hurt. And they can't really do anything to stop you.
 
 
-340 Geyser desc:
+√340 Geyser desc:
 
 It bubbles and froths all day long, preventing Būg Planet from breaking the second law of wormodynamics.
 
-341 Geyser interaction:
+√341 Geyser interaction:
 
 Touching a geyser is forbidden, due to Law #1709, just passed this morning by Senator Puppy. You're not sure if Puppy has jurisdiction over what you do on other planets, because you are not a lawyer.
 
@@ -147,16 +147,16 @@ You give your mushroom sample to the MecaDroid.
 
 "Goodness! You traveled all across the world to get me this protective parasol from the parasol farms? I will be your friend forever!" (Hearts animation, jetpack grows.)
 
-360 Bee desc:
+√360 Bee desc:
 
 This is a strange hummingbird. She is yellow and black. Based on the way she musically voculates, you guess correctly that she is an opera stinger.
 
 
-361 Bee dialog failed state:
+√361 Bee dialog failed state:
 
 “I have stung the highest note there is to sting. Yet no one has applauded or given me any recognition. I dream of carrying a bouquet of flowers off the stage.”
 
-362 Bee dialog success state:
+√362 Bee dialog success state:
 
 You have no flowers to give, but perhaps planting some will make her happy.
 
@@ -169,15 +169,15 @@ The seed fails to grow, but...
 "Oh joy! Now I can make my own flowers any time I want. And they will listen to my operas whenever I wish to sing. Here is my love for you.” (Hearts animation, jetpack grows.)"
 
 
-370 Worm desc:
+√370 Worm desc:
 
 This new friend appears to be some kind of lizard, just like your friend Baaahthazär back Hōm. With two important differences: This creature has no legs or bones.
 
-371 Worm failed state dialog:
+√371 Worm failed state dialog:
 
 "If you are a Space Explorer, I must seem very strange. Stranger still, since my skin is dry and brittle. I am about to be flat and desiccated. I know many secrets I have dug from the earth, but I fear I am in no condition to chat."
 
-372 Worm success state dialog:
+√372 Worm success state dialog:
 
 You sprinkle water from the Forest of Tears, hoping the sadness of the Cloud Trees will heal your new friend. He plumps up like a reconstituted raisin.
 
