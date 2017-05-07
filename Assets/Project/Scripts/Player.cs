@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+//Old script, do not use
+
 public class Player : MonoBehaviour 
 {
 	private static Player instance;
@@ -33,8 +35,8 @@ public class Player : MonoBehaviour
 	public static float radius = 0.3f;
 
 
-	[HideInInspector]
-	public CircleCollider2D closestCollider = null;
+	//[HideInInspector]
+	//public CircleCollider2D closestCollider = null;
 	[HideInInspector]
 	public Transform cameraTarget;
 	[HideInInspector]
@@ -52,11 +54,10 @@ public class Player : MonoBehaviour
 	}
 	void Update()
 	{
-		Vector3 dirToPlayer = VectorExtras.Direction(closest.transform.position, transform.position);
-		transform.rotation = Quaternion.LookRotation( Vector3.forward, dirToPlayer); //Rotate so our down is always toward the closest planet
 
 	}
 		
+	/*
 	private int closeIndex = 0;
 	private float movePenalty = 0.65f;
 	private Planet closest{ get{ return Planet.planets[closeIndex]; } }
@@ -72,8 +73,6 @@ public class Player : MonoBehaviour
 			float dist = Vector3.Distance(Planet.planets[i].transform.position, transform.position);
 			distances.Add( dist );
 
-
-
 			if( dist < closeDist )
 			{
 				closeDist = dist;
@@ -82,13 +81,6 @@ public class Player : MonoBehaviour
 			}
 
 			forces.Add( Planet.planets[i].GravityForce() );
-
-			/*
-			if (dist <= maxGravDist)
-			{
-				Vector3 v = planet.transform.position - transform.position;
-				rb.AddForce(v.normalized * (1.0f - dist / maxGravDist) * maxGravity);
-			}*/
 		}
 
 
@@ -156,9 +148,7 @@ public class Player : MonoBehaviour
 
 			rb.AddForce( new Vector2( force.x, force.y ) );
 		}
-
-
-		//rb.AddForce( forceSum );
+			
 
 
 
@@ -187,16 +177,16 @@ public class Player : MonoBehaviour
 
 
 
-	}
+	} */
 
 	public static bool interacting = false;
 	void OnCollisionStay2D( Collision2D collision ) //Recharge fuel while on the ground.
 	{
-		fuel = Mathf.Clamp( fuel + (Time.fixedDeltaTime * 2f), 0f, maxFuelTime );
-		if( fuelDepleted && fuel >= maxFuelTime )
-			fuelDepleted = false;
+		//fuel = Mathf.Clamp( fuel + (Time.fixedDeltaTime * 2f), 0f, maxFuelTime );
+		//if( fuelDepleted && fuel >= maxFuelTime )
+		//	fuelDepleted = false;
 
-		airTime = 0f;
+		//airTime = 0f;
 
 		if( Input.GetButtonDown("Use") && interacting == false )
 		{

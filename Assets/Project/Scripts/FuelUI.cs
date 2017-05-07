@@ -18,11 +18,11 @@ public class FuelUI : MonoBehaviour
 
 	void LateUpdate () 
 	{
-		float fuelprogress = VectorExtras.ReverseLerp( Player.singleton.fuel, 0f, Player.singleton.maxFuelTime );
+		float fuelprogress = VectorExtras.ReverseLerp( PlayerController.currentFuel, 0f, PlayerController.singleton.maxFuelTime );
 		scale.fillAmount = fuelprogress;
 
 		fuelprogress = VectorExtras.MirrorValue( fuelprogress, 0f, 1f );
-		if( Player.fuelDepleted )
+		if( PlayerController.fuelDepleted )
 			scale.color = recharging.Evaluate( fuelprogress );
 		else
 			scale.color = scaleColors.Evaluate( fuelprogress );

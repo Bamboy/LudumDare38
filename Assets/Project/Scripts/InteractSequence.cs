@@ -17,7 +17,7 @@ public abstract class InteractSequence : Interactable
 
 		if( sequence != null )
 		{
-			Player.interacting = true;
+			PlayerController.singleton.interacting = true;
 			StartCoroutine( Sequencer() );
 		}
 	}
@@ -31,7 +31,7 @@ public abstract class InteractSequence : Interactable
 			
 		}
 
-		Player.interacting = false;
+		PlayerController.singleton.interacting = false;
 	}
 
 }

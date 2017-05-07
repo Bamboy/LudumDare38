@@ -11,7 +11,7 @@ public class DialogIncreaseFuel : DialogAction
 	public override void DoAction( DialogSequence caller )
 	{
 
-		Player.singleton.maxFuelTime += addedFuelTime;
+		PlayerController.singleton.maxFuelTime += addedFuelTime;
 		//Inventory.TakeItem( removeItem );
 
 		caller.blockIndex++;

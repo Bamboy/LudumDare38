@@ -51,7 +51,7 @@ public class DialogSequence : Interactable
 			src.volume = 0.6f;
 		}
 		if( src.clip == null )
-			src.clip = Player.singleton.genericInteract;
+			src.clip = PlayerController.singleton.genericInteract;
 
 
 	}
