@@ -48,7 +48,7 @@ public class Player : MonoBehaviour
 	void Start () 
 	{
 		rb = GetComponent<Rigidbody2D>();
-		cameraTarget = transform.FindChild("CameraTarget");
+		cameraTarget = transform.Find("CameraTarget");
 	}
 	void Update()
 	{

@@ -18,7 +18,7 @@ public class DisplayString : MonoBehaviour
 		display = GetComponentInChildren<Text>();
 		dialogAudio = GetComponent<AudioSource>();
 
-		pointer = transform.FindChild("Pointer").GetComponent<Image>();
+		pointer = transform.Find("Pointer").GetComponent<Image>();
 		window = GetComponent<Image>();
 
 		StartCoroutine(Display());
