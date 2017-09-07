@@ -5,7 +5,6 @@ using System;
 
 public class DialogSequence : Interactable 
 {
-
 	public List<DialogCondition> dialogConditions
 	{
 		get{ return dialogObjects[blockIndex].dialogConditions; }
@@ -14,7 +13,6 @@ public class DialogSequence : Interactable
 	{
 		get{ return dialogObjects[blockIndex].dialogActions; }
 	}
-
 
 	public List<string> dialog
 	{
@@ -51,7 +49,7 @@ public class DialogSequence : Interactable
 			src.volume = 0.6f;
 		}
 		if( src.clip == null )
-			src.clip = Player.singleton.genericInteract;
+			src.clip = PlayerController.singleton.genericInteract;
 
 
 	}
@@ -77,8 +75,9 @@ public class DialogSequence : Interactable
 				src.Play();
 			DisplayString.StartDialog( this );
 		}
-
 	}
 
+	[Tooltip("Optional gameobject for dialog action to do something with.")]
+	public GameObject actionTargetObject = null;
 
 }

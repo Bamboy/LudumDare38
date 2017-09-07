@@ -11,15 +11,6 @@ public class DialogGiveItem : DialogAction
 	public override void DoAction( DialogSequence caller )
 	{
 		Inventory.GiveItem( giveItem );
-
-		switch ( giveItem ) 
-		{
-		case "Brush":
-			caller.blockIndex++;
-			return;
-		default:
-			return;
-		}
 	}
 
 }
